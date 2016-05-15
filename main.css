@@ -1,0 +1,77 @@
+body{
+	font-family: arial,sans-serif;
+}
+
+/* add border to see where elements are */
+div {
+		border: 1px solid #ddd;
+}
+
+
+.navbar{
+	height: 70px;
+}
+
+.logo-container{
+	display: inline-block;
+	line-height: 70px;
+	padding-left: 10px;
+}
+
+.logo-container img{
+	width: 272px;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.logo-container h2{
+	font-size: 24px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.nav-elements-container{
+	float: right;
+}
+
+.nav-elements-container .button{
+	font-size: 18px;
+	text-align: center;
+	width: 100px;
+	display: inline-block;
+	line-height: 70px;
+	height: 70px;
+}
+
+.nav-elements-container .signin-button{
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	outline: none;
+	color: white;
+	background-color: #4285f4;
+	border: 1px solid #4285f4;
+	display: inline-block;
+	line-height: 28px;
+	padding: 0 12px;
+}
+
+
+.nav-elements-container .dropdown-menu{
+	font-size: 18px;
+	text-align: center;
+	width: 80px;
+	display: inline-block;
+}
+
+.nav-elements-container .link{
+	font-size: 18px;
+	text-align: center;
+	width: 80px;
+	display: inline-block;
+}
+.logo-mid-container img{
+	width: 272px;
+	height: 100%;
+	vertical-align: middle;
+}
