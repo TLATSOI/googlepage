@@ -1,10 +1,18 @@
-body{
-	font-family: arial,sans-serif;
-}
 
 /* add border to see where elements are */
 div {
 		border: 1px solid #ddd;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	font-family: arial,sans-serif;
 }
 
 
@@ -33,10 +41,11 @@ div {
 
 .nav-elements-container{
 	float: right;
+	padding: 10px;
 }
 
 .nav-elements-container .button{
-	font-size: 18px;
+	font-size: 11px;
 	text-align: center;
 	width: 100px;
 	display: inline-block;
@@ -54,24 +63,91 @@ div {
 	display: inline-block;
 	line-height: 28px;
 	padding: 0 12px;
+	font-size: 13px;
 }
 
 
 .nav-elements-container .dropdown-menu{
-	font-size: 18px;
+	font-size: 13px;
 	text-align: center;
 	width: 80px;
 	display: inline-block;
 }
 
 .nav-elements-container .link{
-	font-size: 18px;
+	font-size: 13px;
 	text-align: center;
 	width: 80px;
 	display: inline-block;
 }
-.logo-mid-container img{
+
+
+.main-content{
+	width: 580px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.midlogo-container img{
+	margin: auto;
 	width: 272px;
-	height: 100%;
-	vertical-align: middle;
+	height: 92px;
+	padding-top: 109px;
+	display: block;
+}
+
+
+form{
+	padding-top: 10px;
+}
+
+input[type="text"] {
+	width: 566px;
+	padding: 7px;
+	margin: 10px 0 18px;
+	border: solid 1px #ccc;
+	font-size: 16px;
+}
+
+
+input[type="text"]:hover {
+	border-color: #aaa;
+}
+
+
+input[type="submit"] {
+	background: #eee;
+	color: #333;
+	border: solid 1px #ddd;
+	padding: 5px;
+	font-size: 13px;
+	font-family: Arial,sans-serif;
+	font-weight: bold;
+	margin: 0 5px;
+}
+
+.footer {
+	background: #eee;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+}
+
+.footer .footernav {
+	display: inline;
+	font-size: 13px;
+	width: 100%;
+}
+
+.leftlinks {
+	display: inline;
+	float: left;
+	padding: 20px;
+}
+.rightlinks {
+	display: inline;
+	float: right;
+	padding: 20px;
 }
